@@ -1,0 +1,232 @@
+{
+  "baseline": {
+    "directory": "2026-10-13_09-28-07",
+    "iterations": 300,
+    "seed": 42,
+    "num_envs": 4096,
+    "steps_per_iteration": 98304,
+    "total_steps": 29491200,
+    "ranges": {
+      "lin_vel_x": [
+        -1.0,
+        1.0
+      ],
+      "lin_vel_y": [
+        -1.0,
+        1.0
+      ],
+      "ang_vel_z": [
+        -1.0,
+        1.0
+      ],
+      "heading": [
+        -3.141592653589793,
+        3.141592653589793
+      ]
+    },
+    "final": {
+      "error_xy": 0.09824090451002121,
+      "success": 1.0,
+      "base_contact": 0.012552897445857525,
+      "reward": 34.99528503417969,
+      "error_yaw": 0.16998469829559326,
+      "time_out": 0.9874471426010132
+    },
+    "last_50_mean": {
+      "error_xy": 0.10252182051539421,
+      "success": 0.9875165796279908,
+      "base_contact": 0.01257649766281247,
+      "reward": 34.73908416748047,
+      "error_yaw": 0.17774630904197694,
+      "time_out": 0.9874235165119171
+    },
+    "last_50_steps": [
+      250,
+      299
+    ],
+    "all_scalar_tags": [
+      "Episode_Reward/track_lin_vel_xy_exp",
+      "Episode_Reward/track_ang_vel_z_exp",
+      "Episode_Reward/lin_vel_z_l2",
+      "Episode_Reward/ang_vel_xy_l2",
+      "Episode_Reward/dof_torques_l2",
+      "Episode_Reward/dof_acc_l2",
+      "Episode_Reward/action_rate_l2",
+      "Episode_Reward/feet_air_time",
+      "Episode_Reward/flat_orientation_l2",
+      "Episode_Reward/dof_pos_limits",
+      "Metrics/success_rate",
+      "Metrics/base_velocity/error_vel_xy",
+      "Metrics/base_velocity/error_vel_yaw",
+      "Episode_Termination/time_out",
+      "Episode_Termination/base_contact",
+      "Loss/value",
+      "Loss/surrogate",
+      "Loss/entropy",
+      "Loss/learning_rate",
+      "Policy/mean_std",
+      "Perf/total_fps",
+      "Perf/collection_time",
+      "Perf/learning_time",
+      "Train/mean_reward",
+      "Train/mean_episode_length",
+      "Train/mean_reward/time",
+      "Train/mean_episode_length/time"
+    ]
+  },
+  "wide_300": {
+    "directory": "2026-10-13_10-21-07_wide_300",
+    "iterations": 300,
+    "seed": 42,
+    "num_envs": 4096,
+    "steps_per_iteration": 98304,
+    "total_steps": 29491200,
+    "ranges": {
+      "lin_vel_x": [
+        -2.0,
+        2.0
+      ],
+      "lin_vel_y": [
+        -2.0,
+        2.0
+      ],
+      "ang_vel_z": [
+        -1.0,
+        1.0
+      ],
+      "heading": [
+        -3.141592653589793,
+        3.141592653589793
+      ]
+    },
+    "final": {
+      "error_xy": 1.5468567609786987,
+      "success": 0.0,
+      "base_contact": 0.007486979477107525,
+      "reward": 9.530820846557617,
+      "error_yaw": 0.16889113187789917,
+      "time_out": 0.9925130605697632
+    },
+    "last_50_mean": {
+      "error_xy": 1.511256411075592,
+      "success": 0.007727212915197015,
+      "base_contact": 0.007396647306159139,
+      "reward": 9.790708770751953,
+      "error_yaw": 0.17135280907154082,
+      "time_out": 0.9926033687591552
+    },
+    "last_50_steps": [
+      250,
+      299
+    ],
+    "all_scalar_tags": [
+      "Episode_Reward/track_lin_vel_xy_exp",
+      "Episode_Reward/track_ang_vel_z_exp",
+      "Episode_Reward/lin_vel_z_l2",
+      "Episode_Reward/ang_vel_xy_l2",
+      "Episode_Reward/dof_torques_l2",
+      "Episode_Reward/dof_acc_l2",
+      "Episode_Reward/action_rate_l2",
+      "Episode_Reward/feet_air_time",
+      "Episode_Reward/flat_orientation_l2",
+      "Episode_Reward/dof_pos_limits",
+      "Metrics/success_rate",
+      "Metrics/base_velocity/error_vel_xy",
+      "Metrics/base_velocity/error_vel_yaw",
+      "Episode_Termination/time_out",
+      "Episode_Termination/base_contact",
+      "Loss/value",
+      "Loss/surrogate",
+      "Loss/entropy",
+      "Loss/learning_rate",
+      "Policy/mean_std",
+      "Perf/total_fps",
+      "Perf/collection_time",
+      "Perf/learning_time",
+      "Train/mean_reward",
+      "Train/mean_episode_length",
+      "Train/mean_reward/time",
+      "Train/mean_episode_length/time"
+    ]
+  },
+  "wide_900": {
+    "directory": "2026-10-14_10-50-41_wide_900",
+    "iterations": 900,
+    "seed": 42,
+    "num_envs": 4096,
+    "steps_per_iteration": 98304,
+    "total_steps": 88473600,
+    "ranges": {
+      "lin_vel_x": [
+        -2.0,
+        2.0
+      ],
+      "lin_vel_y": [
+        -2.0,
+        2.0
+      ],
+      "ang_vel_z": [
+        -1.0,
+        1.0
+      ],
+      "heading": [
+        -3.141592653589793,
+        3.141592653589793
+      ]
+    },
+    "final": {
+      "error_xy": 1.4580621719360352,
+      "success": 0.0,
+      "base_contact": 0.010569254867732525,
+      "reward": 10.55355453491211,
+      "error_yaw": 0.16118213534355164,
+      "time_out": 0.9894307851791382
+    },
+    "last_50_mean": {
+      "error_xy": 1.502572808265686,
+      "success": 0.009791005859151483,
+      "base_contact": 0.008789469636976719,
+      "reward": 10.042767486572266,
+      "error_yaw": 0.1665138053894043,
+      "time_out": 0.991210550069809
+    },
+    "last_50_steps": [
+      850,
+      899
+    ],
+    "all_scalar_tags": [
+      "Episode_Reward/track_lin_vel_xy_exp",
+      "Episode_Reward/track_ang_vel_z_exp",
+      "Episode_Reward/lin_vel_z_l2",
+      "Episode_Reward/ang_vel_xy_l2",
+      "Episode_Reward/dof_torques_l2",
+      "Episode_Reward/dof_acc_l2",
+      "Episode_Reward/action_rate_l2",
+      "Episode_Reward/feet_air_time",
+      "Episode_Reward/flat_orientation_l2",
+      "Episode_Reward/dof_pos_limits",
+      "Metrics/success_rate",
+      "Metrics/base_velocity/error_vel_xy",
+      "Metrics/base_velocity/error_vel_yaw",
+      "Episode_Termination/time_out",
+      "Episode_Termination/base_contact",
+      "Loss/value",
+      "Loss/surrogate",
+      "Loss/entropy",
+      "Loss/learning_rate",
+      "Policy/mean_std",
+      "Perf/total_fps",
+      "Perf/collection_time",
+      "Perf/learning_time",
+      "Train/mean_reward",
+      "Train/mean_episode_length",
+      "Train/mean_reward/time",
+      "Train/mean_episode_length/time"
+    ]
+  },
+  "method": {
+    "late_window": "Unweighted mean of the last 50 scalar log points per run.",
+    "chart_smoothing": "Raw observations plus a trailing 20-iteration mean; no extrapolation.",
+    "limits": "Training logs, one seed per condition; not pooled episode rates or held-out evaluation."
+  }
+}

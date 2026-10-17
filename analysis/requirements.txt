@@ -1,0 +1,4 @@
+tensorboard==2.20.0
+numpy==2.3.5
+matplotlib==3.10.8
+PyYAML==6.0.3

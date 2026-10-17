@@ -1,0 +1,53 @@
+{
+  "baseline_to_wide_300": [
+    {
+      "path": "agent.run_name",
+      "before": "",
+      "after": "wide_300"
+    },
+    {
+      "path": "env.commands.base_velocity.ranges.lin_vel_x",
+      "before": [
+        -1.0,
+        1.0
+      ],
+      "after": [
+        -2.0,
+        2.0
+      ]
+    },
+    {
+      "path": "env.commands.base_velocity.ranges.lin_vel_y",
+      "before": [
+        -1.0,
+        1.0
+      ],
+      "after": [
+        -2.0,
+        2.0
+      ]
+    },
+    {
+      "path": "env.log_dir",
+      "before": "/home/favi/newuu-robotics/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-13_09-28-07",
+      "after": "/home/favi/newuu-robotics/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-13_10-21-07_wide_300"
+    }
+  ],
+  "wide_300_to_wide_900": [
+    {
+      "path": "agent.max_iterations",
+      "before": 300,
+      "after": 900
+    },
+    {
+      "path": "agent.run_name",
+      "before": "wide_300",
+      "after": "wide_900"
+    },
+    {
+      "path": "env.log_dir",
+      "before": "/home/favi/newuu-robotics/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-13_10-21-07_wide_300",
+      "after": "/home/favi/newuu-robotics/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-14_10-50-41_wide_900"
+    }
+  ]
+}
